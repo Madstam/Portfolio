@@ -1,38 +1,41 @@
 header {
-  text-align : center;
-  background-color: rgb(2, 2, 108) ;
-  color:white ;
+  background-color: #2c3e50;
+  color: white;
+  padding: 25px 20px;
+  text-align: left;
+  border-bottom: 3px solid #3498db;
+  overflow: auto;
 }
 nav a{
-  color: rgb(15, 2, 98) ;
+  color: #2c3e50;
   margin-right: 10px;
-  font-weight : rgb(199, 111, 3) ;
-  
+  font-weight: bold;
+  text-decoration: none;
 }
-nav{ 
-  text-align: center ;
+nav { 
+  text-align: center;
+  padding: 15px 0;
 }
-nav a:hover{
-  color:rgb(199, 111, 3) ;
-  
+nav a:hover {
+  color: #1abc9c;
 }
 body { 
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size:17px;
-  background-color:aliceblue;
-  color:rgb(201, 247, 247);
-  margin:20px;
+  background-color:#ecf0f1;
+  color:#34495e;
+  margin: 0;
 }
 main{ /*notes a moi meme*/
     padding: 20px;
 }
 section h2 {
-  color: #02026c;
+  color: #2c3e50;
   font-size:1.5em;
   text-align:center;
 }
 section p {
-  color: #000000;
+  color: #34495e;
   text-align: center;
 }
 /* jai du mettre un grand container dans une div qui reuniras les deux differentes sections que jai voulu mettre lune a cote de lautre sur une meme ligne , mais chacune contient deux colonnes pour ce qui concerne les cartes qui sont contenues donc dans une div chacune  */
@@ -46,12 +49,12 @@ section p {
 
 /* style pour la section "A propos" */
 .about-section {
-  border: 2px solid #02026c;  /* bordure autour de la section */
+  border: 2px solid #3498db;  /* bordure autour de la section */
   padding: 20px;
   border-radius: 10px;
   max-width: 400px;            /* largeur max */
-  background-color: #f0f8ff;   /* léger fond pour contraster */
-  color: #000;
+  background-color: white;   /* léger fond pour contraster */
+  color: #34495e;
 }
 
 /* ajuste les cartes si nécessaire */
@@ -73,31 +76,67 @@ section p {
   justify-content: center;
   width: 180px;
   height: 180px;
-  background-color: #0b0132;
+  background-color: #2c3e50;
   border-radius: 20px;
   text-decoration: none;
-  color: #d7deeb;
+  color: white;
   font-size: 1.2rem;
   font-weight: bold;
-  box-shadow: 0 4px 8px rgba(58, 1, 1, 0.1);
+  box-shadow: 0 4px 8px rgba(44, 62, 80, 0.3);
   transition: transform 0.2s, background-color 0.2s;
 }
 
 .card:hover { 
   transform: scale(1.05); /* on a applique une sorte de zoom de 5%*/
-  background-color: #e91010; /* couleur de la carte une fois le zoom applique */
+  background-color: #1abc9c; /* couleur turquoise au survol */
 }
 
 /* on remarque que rien n'est defini dans le footer pour le css dcp, il prend la couleur définie dans body { color: rgb(201, 247, 247); } */
 footer {
   text-align: center;
-  background-color: #02026c; 
-  color: rgb(226, 222, 222); /*la couleur du texte */
+  background-color: #2c3e50; 
+  color: white; /*la couleur du texte */
   padding: 15px;
 }
-footer a { /*jsplu quelle couleur a ete mise par defaut*/
-  color:#d7deeb;
+footer a {
+  color: white;
+  text-decoration: none;
+}
 
+footer a:hover {
+  color: #1abc9c;
+  text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  body {
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  .main-container {
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .grid-container1 {
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .card {
+    width: 100%;
+    max-width: 300px;
+  }
+  
+  header h1 {
+    font-size: 1.5em;
+  }
+  
+  header figure img {
+    width: 100px;
+  }
 }
 table { /*notes a moi meme*/
   border-collapse: collapse; /* pour que les bordures soient fines et nettes */
@@ -105,9 +144,16 @@ table { /*notes a moi meme*/
 }
 
 th, td {
-  border: 1px solid #000; /* bordure fine */
+  border: 1px solid #bdc3c7; /* bordure fine */
   padding: 8px; /* espace à l'intérieur des cellules */
-  color: #0a0000; /* couleur du texte */
+  color: #34495e; /* couleur du texte */
+  text-align: left;
+}
+
+th {
+  background-color: #2c3e50;
+  color: white;
+  font-weight: bold;
 }
 
 th:first-child, td:first-child {
@@ -117,24 +163,64 @@ th:first-child, td:first-child {
 th:last-child, td:last-child {
   width: 70%; /* deuxième colonne plus large */
 }
- header figure {
-  margin: 0;
-  display: inline-block;
-  text-align: center;
- }
+header h1 {
+  margin: 0 0 15px 0;
+  font-size: 2em;
+  padding-right: 160px;
+}
 
- header figure img {
-  width:130px;
+header p {
+  margin: 8px 0;
+  padding-right: 160px;
+}
+
+header figure {
+  margin: 0 0 10px 20px;
+  float: right;
+  text-align: center;
+  display: block;
+}
+
+header figure img {
+  width: 130px;
   height: auto;
   border-radius: 50%; /* image ronde */ 
-  border: 5px solid #a90d0d;
- }
+  border: 5px solid #3498db;
+  display: block;
+}
 
- header figure figcaption {
+header figure figcaption {
+  margin-top: 10px;
+  font-size: 1.2rem;
+  color: #ffffff;
+  font-weight: bold;
+  display: block !important;
+  text-align: center;
+  padding: 8px;
+  background-color: #3498db;
+  border-radius: 5px;
+  width: 100%;
+  box-sizing: border-box;
+}
 
-  margin-top: 8px;
-  font-size: 1rem;
-  color: #fcfbfb;
+/* Styles pour les headers des autres pages */
+header h1 {
+  margin: 10px 0;
+  font-size: 2em;
+}
 
- }
+header nav {
+  margin-top: 15px;
+}
+
+header nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+header nav a:hover {
+  color: #1abc9c;
+  text-decoration: underline;
+}
     
