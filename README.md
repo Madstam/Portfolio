@@ -2,11 +2,11 @@
 
 Portfolio personnel développé en HTML et CSS pour présenter mon parcours académique et mes compétences en informatique.
 
-## 📋 À propos
+##  À propos
 
 Portfolio web statique présentant mon profil en tant qu'étudiante en Licence Informatique à l'Université du Littoral Côte d'Opale (ULCO), basée à Calais.
 
-## 🚀 Fonctionnalités
+##  Fonctionnalités
 
 - **Page d'accueil** : Présentation personnelle avec navigation vers les différentes sections
 - **Coordonnées** : Informations de contact (email, téléphone, LinkedIn)
@@ -14,7 +14,7 @@ Portfolio web statique présentant mon profil en tant qu'étudiante en Licence I
 - **Design responsive** : Interface adaptée aux différents écrans
 - **Navigation intuitive** : Menu de navigation clair et accessible
 
-## 📁 Structure du projet
+##  Structure du projet
 
 ```
 web-portfolio/
@@ -30,13 +30,13 @@ web-portfolio/
 └── README.md               # Ce fichier
 ```
 
-## 🛠️ Technologies utilisées
+##  Technologies utilisées
 
 - **HTML5** : Structure sémantique et accessible
 - **CSS3** : Styles modernes avec flexbox et transitions
 - **Accessibilité** : Attributs ARIA et structure sémantique
 
-## 📝 Pages du site
+##  Pages du site
 
 ### Page d'accueil (`index.html`)
 - Présentation personnelle
@@ -61,7 +61,7 @@ web-portfolio/
 - **Effets interactifs** : Transitions au survol des cartes
 - **Layout** : Flexbox pour une mise en page flexible
 
-## 📦 Installation et utilisation
+##  Installation et utilisation
 
 1. Clonez ce repository :
 ```bash
@@ -81,7 +81,7 @@ npx http-server html
 
 Puis accédez à `http://localhost:8000` dans votre navigateur.
 
-## 🌐 Déploiement
+##  Déploiement
 
 Ce site peut être déployé sur :
 - **GitHub Pages** : Activer dans les paramètres du repository
@@ -89,11 +89,11 @@ Ce site peut être déployé sur :
 - **Vercel** : Connexion avec GitHub
 - Tout autre hébergeur de sites statiques
 
-## 📄 Licence
+##  Licence
 
 © 2025 - Tous droits réservés à ULCO
 
-## 👤 Auteur
+##  Auteur
 
 **Madjda Stambouli**
 - Étudiante en L1 Informatique à ULCO
