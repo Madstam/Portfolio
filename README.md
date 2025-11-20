@@ -65,7 +65,7 @@ web-portfolio/
 
 1. Clonez ce repository :
 ```bash
-git clone https://github.com/votre-username/web-portfolio.git
+git clone https://github.com/Madstam/Portfolio.git
 ```
 
 2. Ouvrez le fichier `html/index.html` dans votre navigateur web
