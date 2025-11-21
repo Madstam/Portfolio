@@ -54,7 +54,7 @@ web-portfolio/
 - Première année préparatoire à l'École polytechnique d'Oran (2024-2025)
 - L1 Informatique à ULCO (2025-2026)
 
-## 🎨 Caractéristiques du design
+##  Caractéristiques du design
 
 - **Palette de couleurs** : Bleu marine (#02026c) et orange (#c76f03)
 - **Typographie** : Franklin Gothic Medium
