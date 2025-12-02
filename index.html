@@ -1,76 +1,46 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portfolio - Madjda Stambouli</title>
-  <link rel="stylesheet" href="style.css"> 
-</head>
+  <title>website epc</title>
+  <link rel="stylesheet" href="C:\Users\SAN\Desktop\epc\style.css"> 
+  </head>
 <body>
   <header id="haut" role="banner" aria-label="En-tête du site">
-    <figure role="img" aria-labelledby="figcaption-vv">
-      <img src="photo.png" alt="Photo de Madjda Stambouli" id="photo">
-      <figcaption id="figcaption-vv">Madjda Stambouli</figcaption>
-    </figure>
+  <button class="theme-toggle" onclick="document.body.classList.toggle('dark-mode')">
+</button>
 
-    <h1>Portfolio - Madjda Stambouli</h1>
-    <p>Étudiante en Licence Informatique ULCO</p>
-    <p>Basée à Calais</p>
+
+  <figure role="img" aria-labelledby="figcaption-vv">
+    <img src="photo.png" alt="logo du club" id="photo">
+    <figcaption id="figcaption-vv">ENGINEERING PIONEERS CLUB</figcaption>
+  </figure>
+
+    <p>Elu Meilleur Club scientifique a l'ecole nationale polytechnique d'Oran </p>
+    <p>Basée à Oran</p>
+
   </header>
-  
-  <nav> 
-    <a href="index.html">Accueil</a>
-    <a href="formacad.html">Formation</a>
-    <a href="competences.html">Compétences</a>
-    <a href="projets.html">Projets</a>
-    <a href="coord.html">Contact</a>
-    <a href="https://www.univ-littoral.fr/" target="_blank" rel="noopener noreferrer">ULCO</a>
+<nav> 
+    <a href="coord.html" target="C:\Users\SAN\Desktop\web\html\coord.html"> NOUS CONTACTER  </a>
+    <a href="foracad.html" target="_blank">NOTRE LOCALISATION </a>
+    <a href="https://www.univ-littoral.fr/" target="_blank"> ENPO </a>
   </nav>
-  
-  <hr>
+ <hr>
  
   <main>
-    <section class="about-section-full">
-      <h2>À propos de moi</h2>
-      <p>
-        Je suis étudiante en L1 informatique à ULCO. Passionnée par la tech, 
-        je prends du plaisir à découvrir de nouvelles technologies, tester des outils, 
-        bidouiller du code et résoudre des problèmes techniques, 
-        surtout à comprendre leur fonctionnement !
-      </p>
-      <p>
-        En dehors de mes études, je pratique le piano à temps partiel, ce qui développe 
-        ma créativité, ma discipline et ma capacité à travailler en autonomie.
-      </p>
-    </section>
-
-    <section class="quick-links">
-      <h2>Découvrez mon parcours</h2>
-      <div class="links-grid">
-        <a href="formacad.html" class="quick-link-card">
-          <h3> Formation</h3>
-          <p>Mon parcours académique</p>
-        </a>
-        <a href="competences.html" class="quick-link-card">
-          <h3> Compétences</h3>
-          <p>Mes savoir-faire techniques et personnels</p>
-        </a>
-        <a href="projets.html" class="quick-link-card">
-          <h3> Projets</h3>
-          <p>Mes réalisations et projets à venir</p>
-        </a>
-        <a href="coord.html" class="quick-link-card">
-          <h3> Contact</h3>
-          <p>Me contacter</p>
-        </a>
-      </div>
-    </section>
-  </main>
-
+    
+    <section class="grid-container">
+  <a href="formation.html" class="card">NOS DEPARTEMENTS</a>
+  <a href="projets.html" class="card">NOS PROJETS</a>
+  <a href="competences.html" class="card">NOS PROCHAINS EVENEMENTS</a>
+  <a href="contact.html" class="card"> QUEST-CE QUE EPC ? </a>
+  </section>
+</main>
   <hr>
-  
+  </body>
   <footer>
-    <p>&copy; 2025 - Tous droits réservés à ULCO | <a href="#haut">Haut de page</a></p>
+<p>&copy; 2025- Tous droits reserves a ENPO | <a href="#haut"> haut de page </a></p>
   </footer>
-</body>
+
 </html>
