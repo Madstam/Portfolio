@@ -301,7 +301,7 @@ header figure img {
 
 header figure figcaption {
   margin-top: 10px;
-  font-size: 1.2rem;
+  font-size: 20px;
   color: #ffffff;
   font-weight: bold;
   display: block ;
@@ -309,8 +309,8 @@ header figure figcaption {
   padding: 8px;
   background-color: #B85C6B;
   border-radius: 5px;
-  width: 100%;
-  box-sizing: border-box;
+  width: 70%;
+ 
 }
 
 /* Styles pour les titres et textes du header */
@@ -419,4 +419,5 @@ header nav a:hover {
 #competences {
   margin: 40px ;
 }
+
     
