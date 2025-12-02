@@ -267,11 +267,11 @@ footer a:hover {
   
   header h1 {
     font-size: 1.5em;
-    padding-right: 0 !important;
+    padding-right: 0;
   }
   
   header p {
-    padding-right: 0 !important;
+    padding-right: 0 ;
   }
   
   header figure img {
@@ -350,12 +350,12 @@ header nav a:hover {
   border-radius: 8px;
   padding: 20px;
   margin: 15px 0;
-  box-shadow: 0 2px 8px rgba(114, 47, 55, 0.1);
+  
 }
 
 .competence-item h3 {
   color: #722F37;
-  margin-top: 0;
+  
 }
 
 .competence-item p {
